@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>w+0nudEHmDBifsXu1Y7ZJFf7CMg=</dsig:DigestValue>
+        <dsig:DigestValue>jr5EX0I36ay2OltfSfFaSDDmIas=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -770,19 +770,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>UznGmWxttxuRMJjXilSDlnbJzZE=</dsig:DigestValue>
+        <dsig:DigestValue>ahqxAYmBggICZqkpFR2wfHbsOnc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HRMDAL.dll" size="358400">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HRMDAL.dll" size="358912">
       <assemblyIdentity name="HRMDAL" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>a9vcyezGEOY7jnR7NyS+xqlQY5M=</dsig:DigestValue>
+        <dsig:DigestValue>7Bkl55Wg9AzIPUoKDac+l/TR9NU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -794,19 +794,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>etKUyIU9rX+LEn8QBBqzF7QylXE=</dsig:DigestValue>
+        <dsig:DigestValue>ZiAlHeI92ObZWqHb22QQkuOy3lA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HumanResources.exe" size="5577216">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="HumanResources.exe" size="5583872">
       <assemblyIdentity name="HumanResources" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>8B06n1jF7zmqYlrsjSC2BXl2cIY=</dsig:DigestValue>
+        <dsig:DigestValue>1ysKbUjrBnNqpQfm30XOaPCtTfs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
