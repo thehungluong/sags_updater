@@ -14,14 +14,14 @@
     <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application Files\HumanResources_1_0_0_536\HumanResources.exe.manifest" size="52153">
+    <dependentAssembly dependencyType="install" codebase="Application Files\HumanResources_1_0_0_536\HumanResources.exe.manifest" size="60181">
       <assemblyIdentity name="HumanResources.exe" version="1.0.0.536" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>or0xixJAXnIb+vH8Ej3XxzXKC/Y=</dsig:DigestValue>
+        <dsig:DigestValue>JRP/QJ8VHZehqKI790ElCS8ZgA0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
