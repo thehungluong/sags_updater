@@ -1,0 +1,101 @@
+﻿<RadGridView AutoSizeRows="True" BackColor="191, 219, 255" ForeColor="Black" ShowHeaderCellButtons="True" EnableCustomGrouping="True" Text="radGridView1" Font="Segoe UI, 8.25pt" Cursor="Default" RightToLeft="No" TabIndex="1" ImeMode="NoControl">
+  <MasterTemplate ShowFilterCellOperatorText="False" EnableCustomGrouping="True" EnableFiltering="True" ShowHeaderCellButtons="True">
+    <Columns>
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="Status" Name="Status" IsVisible="False" HeaderText="Status" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="RootId" Name="RootId" IsVisible="False" HeaderText="RootId" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="DepartmentId" Name="DepartmentId" IsVisible="False" HeaderText="DepartmentId" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="ParentId" Name="ParentId" IsVisible="False" HeaderText="ParentId" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="Level" Name="Level" IsVisible="False" HeaderText="Level" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="PositionId" Name="PositionId" IsVisible="False" HeaderText="PositionId" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="LevelPosition" Name="LevelPosition" IsVisible="False" HeaderText="LevelPosition" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" Width="59" FieldName="UserId" Name="UserId" IsVisible="True" HeaderText="Mã NV" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="103" FieldName="FullName" Name="FullName" IsVisible="True" HeaderText="Họ và tên" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="83" FieldName="PositionName" Name="PositionName" IsVisible="True" HeaderText="Chức danh" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn FieldName="RootName" Name="RootName" IsVisible="True" HeaderText="Phòng" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn FieldName="DepartmentName" Name="DepartmentName" IsVisible="True" HeaderText="Đội" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="104" FieldName="DepartmentFullName" Name="DepartmentFullName" IsVisible="True" HeaderText="Phòng/ đội" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.DateTime" Width="129" FieldName="DataDate" Name="DataDate" IsVisible="True" HeaderText="DataDate" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="55" FieldName="NCQD" Name="NCQD" IsVisible="True" HeaderText="NCQD" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="54" FieldName="NCDC" Name="NCDC" IsVisible="True" HeaderText="NCDC" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="30" FieldName="X" Name="X" IsVisible="True" HeaderText="X" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="48" FieldName="X_TV" Name="X_TV" IsVisible="True" HeaderText="X_TV" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="75" FieldName="NghiTuan" Name="NghiTuan" IsVisible="True" HeaderText="NghiTuan" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="90" FieldName="OmDNBHXH" Name="OmDNBHXH" IsVisible="True" HeaderText="OmDNBHXH" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="41" FieldName="Om" Name="Om" IsVisible="True" HeaderText="Om" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="38" FieldName="NC" Name="NC" IsVisible="True" HeaderText="NC" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="58" FieldName="OmDN" Name="OmDN" IsVisible="True" HeaderText="OmDN" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="47" FieldName="KHH" Name="KHH" IsVisible="True" HeaderText="KHH" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="36" FieldName="Co" Name="Co" IsVisible="True" HeaderText="Co" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="35" FieldName="TS" Name="TS" IsVisible="True" HeaderText="TS" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="35" FieldName="ST" Name="ST" IsVisible="True" HeaderText="ST" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="73" FieldName="Khamthai" Name="Khamthai" IsVisible="True" HeaderText="Khamthai" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="52" FieldName="TNLD" Name="TNLD" IsVisible="True" HeaderText="TNLD" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="28" FieldName="F" Name="F" IsVisible="True" HeaderText="F" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="68" FieldName="Diduong" Name="Diduong" IsVisible="True" HeaderText="Diduong" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="47" FieldName="CTac" Name="CTac" IsVisible="True" HeaderText="CTac" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="42" FieldName="Fdb" Name="Fdb" IsVisible="True" HeaderText="Fdb" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="37" FieldName="H1" Name="H1" IsVisible="True" HeaderText="H1" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="37" FieldName="H2" Name="H2" IsVisible="True" HeaderText="H2" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="37" FieldName="H3" Name="H3" IsVisible="True" HeaderText="H3" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="37" FieldName="H4" Name="H4" IsVisible="True" HeaderText="H4" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="37" FieldName="H5" Name="H5" IsVisible="True" HeaderText="H5" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="37" FieldName="H6" Name="H6" IsVisible="True" HeaderText="H6" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="37" FieldName="H7" Name="H7" IsVisible="True" HeaderText="H7" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="78" FieldName="DinhChiCT" Name="DinhChiCT" IsVisible="True" HeaderText="DinhChiCT" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="36" FieldName="Ro" Name="Ro" IsVisible="True" HeaderText="Ro" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="36" FieldName="Ko" Name="Ko" IsVisible="True" HeaderText="Ko" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="62" FieldName="NghiBu" Name="NghiBu" IsVisible="True" HeaderText="NghiBu" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="71" FieldName="NghiViec" Name="NghiViec" IsVisible="True" HeaderText="NghiViec" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="70" FieldName="NghiMat" Name="NghiMat" IsVisible="True" HeaderText="NghiMat" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="80" FieldName="ChuaDilam" Name="ChuaDilam" IsVisible="True" HeaderText="ChuaDilam" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="68" FieldName="Lamdem" Name="Lamdem" IsVisible="True" HeaderText="Lamdem" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="58" FieldName="HSLNS" Name="HSLNS" IsVisible="True" HeaderText="HSLNS" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="88" FieldName="HSLNSPCTN" Name="HSLNSPCTN" IsVisible="True" HeaderText="HSLNSPCTN" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="57" FieldName="HSLCB" Name="HSLCB" IsVisible="True" HeaderText="HSLCB" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="68" FieldName="HSPCDH" Name="HSPCDH" IsVisible="True" HeaderText="HSPCDH" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="67" FieldName="HSPCTN" Name="HSPCTN" IsVisible="True" HeaderText="HSPCTN" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="66" FieldName="HSPCKV" Name="HSPCKV" IsVisible="True" HeaderText="HSPCKV" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="66" FieldName="HSPCCV" Name="HSPCCV" IsVisible="True" HeaderText="HSPCCV" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="45" FieldName="HSK" Name="HSK" IsVisible="True" HeaderText="HSK" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="87" FieldName="DTNopThue" Name="DTNopThue" IsVisible="True" HeaderText="DTNopThue" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="95" FieldName="NguoiPThuoc" Name="NguoiPThuoc" IsVisible="True" HeaderText="NguoiPThuoc" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="68" FieldName="NCHLNS" Name="NCHLNS" IsVisible="True" HeaderText="NCHLNS" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="85" FieldName="HSQDNCHL" Name="HSQDNCHL" IsVisible="True" HeaderText="HSQDNCHL" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Double" Width="65" FieldName="HSTLNS" Name="HSTLNS" IsVisible="True" HeaderText="HSTLNS" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="49" FieldName="Day1" Name="Day1" IsVisible="True" HeaderText="Day1" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="49" FieldName="Day2" Name="Day2" IsVisible="True" HeaderText="Day2" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="49" FieldName="Day3" Name="Day3" IsVisible="True" HeaderText="Day3" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="49" FieldName="Day4" Name="Day4" IsVisible="True" HeaderText="Day4" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="49" FieldName="Day5" Name="Day5" IsVisible="True" HeaderText="Day5" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="49" FieldName="Day6" Name="Day6" IsVisible="True" HeaderText="Day6" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="49" FieldName="Day7" Name="Day7" IsVisible="True" HeaderText="Day7" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="49" FieldName="Day8" Name="Day8" IsVisible="True" HeaderText="Day8" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="49" FieldName="Day9" Name="Day9" IsVisible="True" HeaderText="Day9" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day10" Name="Day10" IsVisible="True" HeaderText="Day10" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day11" Name="Day11" IsVisible="True" HeaderText="Day11" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day12" Name="Day12" IsVisible="True" HeaderText="Day12" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day13" Name="Day13" IsVisible="True" HeaderText="Day13" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day14" Name="Day14" IsVisible="True" HeaderText="Day14" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day15" Name="Day15" IsVisible="True" HeaderText="Day15" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day16" Name="Day16" IsVisible="True" HeaderText="Day16" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day17" Name="Day17" IsVisible="True" HeaderText="Day17" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day18" Name="Day18" IsVisible="True" HeaderText="Day18" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day19" Name="Day19" IsVisible="True" HeaderText="Day19" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day20" Name="Day20" IsVisible="True" HeaderText="Day20" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day21" Name="Day21" IsVisible="True" HeaderText="Day21" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day22" Name="Day22" IsVisible="True" HeaderText="Day22" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day23" Name="Day23" IsVisible="True" HeaderText="Day23" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day24" Name="Day24" IsVisible="True" HeaderText="Day24" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day25" Name="Day25" IsVisible="True" HeaderText="Day25" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day26" Name="Day26" IsVisible="True" HeaderText="Day26" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day27" Name="Day27" IsVisible="True" HeaderText="Day27" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day28" Name="Day28" IsVisible="True" HeaderText="Day28" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day29" Name="Day29" IsVisible="True" HeaderText="Day29" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day30" Name="Day30" IsVisible="True" HeaderText="Day30" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="Day31" Name="Day31" IsVisible="True" HeaderText="Day31" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" Width="73" FieldName="DataType" Name="DataType" IsVisible="True" HeaderText="DataType" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="62" FieldName="Remark" Name="Remark" IsVisible="True" HeaderText="Ghi chú" />
+    </Columns>
+    <ViewDefinition xsi:type="Telerik.WinControls.UI.TableViewDefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </MasterTemplate>
+</RadGridView>

@@ -1,0 +1,44 @@
+﻿<RadGridView ShowGroupPanel="False" BackColor="191, 219, 255" ForeColor="Black" ShowHeaderCellButtons="True" NewRowEnterKeyMode="EnterMovesToNextCell" Font="Segoe UI, 8.25pt" Cursor="Default" Margin="4, 5, 4, 5" RightToLeft="No" TabIndex="2" ImeMode="NoControl">
+  <MasterTemplate MultiSelect="True" ClipboardCutMode="EnableAlwaysIncludeHeaderText" ClipboardCopyMode="EnableAlwaysIncludeHeaderText" ShowFilterCellOperatorText="False" EnableAlternatingRowColor="True" AllowEditRow="False" AllowDeleteRow="False" AllowAddNewRow="False" AllowSearchRow="True" EnableFiltering="True" AutoGenerateColumns="False" ShowHeaderCellButtons="True" ShowTotals="True">
+    <Columns>
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FormatString="{0:00000#}" Width="94" MinWidth="50" FieldName="UserId" Name="UserId" EnableExpressionEditor="False" IsVisible="True" IsPinned="True" PinPosition="Left" HeaderText="Mã nhân viên" WrapText="True" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="160" MinWidth="50" FieldName="FullName" Name="FullName" EnableExpressionEditor="False" IsVisible="True" IsPinned="True" PinPosition="Left" HeaderText="Họ và tên&#xD;&#xA;người nộp thuế" WrapText="True" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="231" FieldName="PositionName" Name="PositionName" EnableExpressionEditor="False" IsVisible="True" HeaderText="Chức danh&#xD;&#xA;người nộp thuế" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn FieldName="RootName" Name="RootName" EnableExpressionEditor="False" IsVisible="True" HeaderText="Phòng" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn FieldName="DepartmentName" Name="DepartmentName" EnableExpressionEditor="False" IsVisible="True" HeaderText="Đội" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn FieldName="DepartmentFullName" Name="DepartmentFullName" EnableExpressionEditor="False" IsVisible="True" HeaderText="Phòng/ đội" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="1" MinWidth="1" MaxWidth="1" FieldName="FullName2" Name="FullName2" EnableExpressionEditor="False" IsVisible="True" HeaderText="Ho va ten" WrapText="True" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="105" FieldName="TaxCode" Name="TaxCode" EnableExpressionEditor="False" IsVisible="True" HeaderText="MST của&#xD;&#xA;người nộp thuế" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="RootId" Name="RootId" EnableExpressionEditor="False" IsVisible="False" HeaderText="RootId" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="PITDeductionId" Name="PITDeductionId" EnableExpressionEditor="False" IsVisible="False" HeaderText="PITDeductionId" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="172" FieldName="DependantFullName" Name="DependantFullName" EnableExpressionEditor="False" IsVisible="True" HeaderText="Họ và tên&#xD;&#xA;người phụ thuộc" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="Dob" Name="Dob" EnableExpressionEditor="False" IsVisible="True" HeaderText="Ngày" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" Width="56" FieldName="Mob" Name="Mob" EnableExpressionEditor="False" IsVisible="True" HeaderText="Tháng" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" Width="48" FieldName="Yob" Name="Yob" EnableExpressionEditor="False" IsVisible="True" HeaderText="Năm" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="111" FieldName="Birth" Name="Birth" EnableExpressionEditor="False" IsVisible="True" HeaderText="Ngày sinh&#xD;&#xA;người phụ thuộc" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="111" FieldName="TaxNumber" Name="TaxNumber" EnableExpressionEditor="False" IsVisible="True" HeaderText="MST của&#xD;&#xA;người phụ thuộc" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="111" FieldName="Id_Passport" Name="Id_Passport" EnableExpressionEditor="False" IsVisible="True" HeaderText="CMND/Hộ chiếu&#xD;&#xA;người phụ thuộc" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="111" FieldName="DependantNationalityName" Name="DependantNationalityName" EnableExpressionEditor="False" IsVisible="True" HeaderText="Quốc tịch của&#xD;&#xA;người phụ thuộc" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="DependantNationality" Name="DependantNationality" EnableExpressionEditor="False" IsVisible="False" HeaderText="DependantNationality" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="105" FieldName="DependantRelationTypeName" Name="DependantRelationTypeName" EnableExpressionEditor="False" IsVisible="True" HeaderText="Quan hệ với&#xD;&#xA;người nộp thuế" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" Width="112" FieldName="FromMonth" Name="FromMonth" EnableExpressionEditor="False" IsVisible="True" HeaderText="Thời điểm&#xD;&#xA;bắt đầu giảm trừ&#xD;&#xA;(tháng)" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" Width="112" FieldName="FromYear" Name="FromYear" EnableExpressionEditor="False" IsVisible="True" HeaderText="Thời điểm&#xD;&#xA;bắt đầu giảm trừ&#xD;&#xA;(năm)" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" Width="115" FieldName="ToMonth" Name="ToMonth" EnableExpressionEditor="False" IsVisible="True" HeaderText="Thời điểm&#xD;&#xA;kết thúc giảm trừ&#xD;&#xA;(tháng)" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" Width="115" FieldName="ToYear" Name="ToYear" EnableExpressionEditor="False" IsVisible="True" HeaderText="Thời điểm&#xD;&#xA;kết thúc giảm trừ&#xD;&#xA;(năm)" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="35" FieldName="BC_Number" Name="BC_Number" EnableExpressionEditor="False" IsVisible="True" HeaderText="Số" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="72" FieldName="BC_BookNumber" Name="BC_BookNumber" EnableExpressionEditor="False" IsVisible="True" HeaderText="Quyển số" TextAlignment="MiddleCenter" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="DepartmentId" Name="DepartmentId" EnableExpressionEditor="False" IsVisible="False" HeaderText="DepartmentId" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn FieldName="BC_NationCode" Name="BC_NationCode" EnableExpressionEditor="False" IsVisible="False" HeaderText="BC_NationCode" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn FieldName="BC_CityCode" Name="BC_CityCode" EnableExpressionEditor="False" IsVisible="False" HeaderText="BC_CityCode" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn FieldName="BC_DistrictCode" Name="BC_DistrictCode" EnableExpressionEditor="False" IsVisible="False" HeaderText="BC_DistrictCode" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn FieldName="BC_WardCode" Name="BC_WardCode" EnableExpressionEditor="False" IsVisible="False" HeaderText="BC_WardCode" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="69" FieldName="Nation" Name="Nation" EnableExpressionEditor="False" IsVisible="True" HeaderText="Quốc gia" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="108" FieldName="ProvinceCity" Name="ProvinceCity" EnableExpressionEditor="False" IsVisible="True" HeaderText="Tỉnh/Thành phố" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="109" FieldName="District" Name="District" EnableExpressionEditor="False" IsVisible="True" HeaderText="Quận/Huyện" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="136" FieldName="Ward" Name="Ward" EnableExpressionEditor="False" IsVisible="True" HeaderText="Phường/Xã" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="DependantRelationTypeId" Name="DependantRelationTypeId" EnableExpressionEditor="False" IsVisible="False" HeaderText="DependantRelationTypeId" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="Active" Name="Active" EnableExpressionEditor="False" IsVisible="False" HeaderText="Active" />
+    </Columns>
+    <ViewDefinition xsi:type="Telerik.WinControls.UI.TableViewDefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </MasterTemplate>
+</RadGridView>
