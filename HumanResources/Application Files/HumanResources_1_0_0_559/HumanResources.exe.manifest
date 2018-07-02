@@ -650,7 +650,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>gtNcyr3F75g76QH+1jTebNgHLQc=</dsig:DigestValue>
+        <dsig:DigestValue>gPU0i+HnWx0JPnsGB4JO50HWTdY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -864,49 +864,49 @@
       <dsig:DigestValue>enH3JEKRxv0MD3IqLG7j6n0PrDU=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Administrations\DataStructure\View_H0_DepartmentEmployee.xml" size="7974">
+  <file name="Administrations\DataStructure\View_H0_DepartmentEmployee.xml" size="8978">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>kfgtDF5BwgD1Pf3hiWT2RnQipDQ=</dsig:DigestValue>
+      <dsig:DigestValue>j3EeVNI52D2iV/GkYsDs55sTKfw=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Administrations\DataStructure\View_H0_Employee_Leaves_Detail.xml" size="3742">
+  <file name="Administrations\DataStructure\View_H0_Employee_Leaves_Detail.xml" size="4686">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>VMumbQ3xa0n0lsEVVhZQ2OTq/uI=</dsig:DigestValue>
+      <dsig:DigestValue>phVUm0+Z3rUuWffKZcHKx17suCs=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Administrations\DataStructure\View_H0_EmployeeContracts.xml" size="4823">
+  <file name="Administrations\DataStructure\View_H0_EmployeeContracts.xml" size="9889">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>IZArBDaIL4Eg4SdWxv8MsE+Nxws=</dsig:DigestValue>
+      <dsig:DigestValue>fwY4uStCJ+n27biFkvRD4vfikSo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Administrations\DataStructure\View_H0_EmployeeSecurityControl.xml" size="5017">
+  <file name="Administrations\DataStructure\View_H0_EmployeeSecurityControl.xml" size="5713">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>M6NRfxfqgtMT8uKvGnoWW95zB/w=</dsig:DigestValue>
+      <dsig:DigestValue>Q+RKAf+5z2cHnc6Vg7m13aSn2UA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Administrations\DataStructure\View_H0_EmployeeSubContract.xml" size="4049">
+  <file name="Administrations\DataStructure\View_H0_EmployeeSubContract.xml" size="4993">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>GNqn4KLZqAFuzeO5IWgXbaJTAfQ=</dsig:DigestValue>
+      <dsig:DigestValue>1JE/oz/Cny2m/fWA1QUhMPWcZXE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Administrations\DataStructure\View_H1_All_Income.xml" size="3">
@@ -918,31 +918,31 @@
       <dsig:DigestValue>VyGMMWtpIeLNYQJ6I4ftwxotlHE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Administrations\DataStructure\View_H1_LNS_CoefficientEmployees.xml" size="4272" writeableType="applicationData">
+  <file name="Administrations\DataStructure\View_H1_LNS_CoefficientEmployees.xml" size="4821" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>6jkRPVHmVgvj4pkfN94kHR/M3tE=</dsig:DigestValue>
+      <dsig:DigestValue>zAUmjfp7ejJ1/2AQI7cTmiWi0O8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Administrations\DataStructure\View_H1_PITDeduction.xml" size="8823" writeableType="applicationData">
+  <file name="Administrations\DataStructure\View_H1_PITDeduction.xml" size="9124" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>u/BHxtgdYcpny8VHdu14jYhQTHQ=</dsig:DigestValue>
+      <dsig:DigestValue>gL08dTa3xEXS2yEwUm0C+LfSWy8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Administrations\DataStructure\View_H1_WorkdayCoefficientEmployeesFinal.xml" size="14638">
+  <file name="Administrations\DataStructure\View_H1_WorkdayCoefficientEmployeesFinal.xml" size="14892">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>noK9uLswgQAXiZVmx4xpJgjXBqg=</dsig:DigestValue>
+      <dsig:DigestValue>V97g/gTGWPkXnvilLC69VEYWhxE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="HumanResources.exe.config" size="5794">
