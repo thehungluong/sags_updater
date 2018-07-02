@@ -1,0 +1,20 @@
+﻿<RadGridView AutoSizeRows="True" Text="radGridView1" Cursor="Default" TabIndex="1">
+  <MasterTemplate ShowFilterCellOperatorText="False">
+    <Columns>
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="Status" Name="Status" IsVisible="False" HeaderText="Status" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="RootId" Name="RootId" IsVisible="False" HeaderText="RootId" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="DepartmentId" Name="DepartmentId" IsVisible="False" HeaderText="DepartmentId" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="ParentId" Name="ParentId" IsVisible="False" HeaderText="ParentId" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="Level" Name="Level" IsVisible="False" HeaderText="Level" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="PositionId" Name="PositionId" IsVisible="False" HeaderText="PositionId" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="LevelPosition" Name="LevelPosition" IsVisible="False" HeaderText="LevelPosition" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" Width="45" FieldName="UserId" Name="UserId" IsVisible="True" HeaderText="Mã NV" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="118" FieldName="FullName" Name="FullName" IsVisible="True" HeaderText="Họ và tên" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="215" FieldName="PositionName" Name="PositionName" IsVisible="True" HeaderText="Chức danh" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn FieldName="RootName" Name="RootName" IsVisible="True" HeaderText="Phòng" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn FieldName="DepartmentName" Name="DepartmentName" IsVisible="True" HeaderText="Đội" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="262" FieldName="DepartmentFullName" Name="DepartmentFullName" IsVisible="True" HeaderText="Phòng/ đội" />
+    </Columns>
+    <ViewDefinition xsi:type="Telerik.WinControls.UI.TableViewDefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </MasterTemplate>
+</RadGridView>

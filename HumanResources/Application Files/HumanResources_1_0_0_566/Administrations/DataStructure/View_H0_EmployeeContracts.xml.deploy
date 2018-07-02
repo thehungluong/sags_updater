@@ -1,0 +1,59 @@
+﻿<RadGridView BeginEditMode="BeginEditOnF2" ShowGroupPanel="False" AutoSizeRows="True" BackColor="191, 219, 255" ForeColor="Black" ShowHeaderCellButtons="True" EnableCustomSorting="True" EnableCustomGrouping="True" EnableCustomFiltering="True" ReadOnly="True" NewRowEnterKeyMode="EnterMovesToNextCell" Padding="0, 5, 0, 0" Font="Segoe UI, 8.25pt" Cursor="Default" Margin="4, 5, 4, 5" RightToLeft="No" TabIndex="1" ImeMode="NoControl">
+  <MasterTemplate MultiSelect="True" ClipboardCutMode="EnableAlwaysIncludeHeaderText" ClipboardCopyMode="EnableAlwaysIncludeHeaderText" ShowFilterCellOperatorText="False" AllowColumnReorder="False" EnableAlternatingRowColor="False" AllowEditRow="False" AllowDeleteRow="False" AllowAddNewRow="False" AllowSearchRow="True" EnableCustomSorting="True" EnableCustomGrouping="True" EnableFiltering="True" EnableCustomFiltering="True" AutoGenerateColumns="False" AutoExpandGroups="True" ShowHeaderCellButtons="True" ShowTotals="True">
+    <Columns>
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="Status" Name="Status" IsVisible="False" HeaderText="Status" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="RootId" Name="RootId" IsVisible="False" HeaderText="RootId" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="DepartmentId" Name="DepartmentId" IsVisible="False" HeaderText="DepartmentId" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="ParentId" Name="ParentId" IsVisible="False" HeaderText="ParentId" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="Level" Name="Level" IsVisible="False" HeaderText="Level" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="PositionId" Name="PositionId" IsVisible="False" HeaderText="PositionId" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn DataType="System.Int32" FieldName="LevelPosition" Name="LevelPosition" IsVisible="False" HeaderText="LevelPosition" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn ExcelExportType="Custom" DataType="System.Int32" ExcelExportFormatString="0" Width="59" FieldName="UserId" Name="UserId" IsVisible="True" HeaderText="Mã NV" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="74" FieldName="FullName" Name="FullName" IsVisible="True" HeaderText="Họ và tên" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="79" FieldName="PositionName" Name="PositionName" IsVisible="True" HeaderText="Chức danh" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="57" FieldName="RootName" Name="RootName" IsVisible="True" HeaderText="Phòng" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="41" FieldName="DepartmentName" Name="DepartmentName" IsVisible="True" HeaderText="Đội" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="82" FieldName="DepartmentFullName" Name="DepartmentFullName" IsVisible="True" HeaderText="Phòng/ đội" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="94" FieldName="ContractTypeCode" Name="ContractTypeCode" IsVisible="True" HeaderText="Mã hợp đồng" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="99" FieldName="ContractTypeName" Name="ContractTypeName" IsVisible="True" HeaderText="Loại hợp đồng" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn ExcelExportType="Custom" DataType="System.DateTime" ExcelExportFormatString="dd/MM/yyyy" Width="94" FieldName="FromDate" Name="FromDate" IsVisible="True" HeaderText="Ngày bắt đầu" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn ExcelExportType="Custom" DataType="System.DateTime" ExcelExportFormatString="dd/MM/yyyy" Width="97" FieldName="ToDate" Name="ToDate" IsVisible="True" HeaderText="Ngày kết thúc" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn ExcelExportType="Custom" ExcelExportFormatString="dd/MM/yyyy" Width="146" FieldName="Birthday" Name="Birthday" IsVisible="True" HeaderText="Ngày/ tháng/ năm sinh" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn FieldName="DayOfBirth" Name="DayOfBirth" IsVisible="True" HeaderText="Ngày" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="56" FieldName="MonthOfBirth" Name="MonthOfBirth" IsVisible="True" HeaderText="Tháng" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="48" FieldName="YearOfBirth" Name="YearOfBirth" IsVisible="True" HeaderText="Năm" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="68" FieldName="SexName" Name="SexName" IsVisible="True" HeaderText="Giới tính" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="74" FieldName="MarriageName" Name="MarriageName" IsVisible="True" HeaderText="Hôn nhân" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="81" FieldName="TaxCode" Name="TaxCode" IsVisible="True" HeaderText="Mã số thuế" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn ExcelExportType="Custom" ExcelExportFormatString="dd/MM/yyyy" Width="176" FieldName="JoinDate" Name="JoinDate" IsVisible="True" HeaderText="Ngày vào ngành hàng không" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn ExcelExportType="Custom" ExcelExportFormatString="dd/MM/yyyy" Width="116" FieldName="JoinCompanyDate" Name="JoinCompanyDate" IsVisible="True" HeaderText="Ngày vào công ty" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="74" FieldName="NativePlace" Name="NativePlace" IsVisible="True" HeaderText="Quê quán" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="120" FieldName="Resident" Name="Resident" IsVisible="True" HeaderText="Địa chỉ thường trú" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="100" FieldName="Live" Name="Live" IsVisible="True" HeaderText="Nơi ở hiện nay" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="63" FieldName="Nation" Name="Nation" IsVisible="True" HeaderText="Dân tộc" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="69" FieldName="Religion" Name="Religion" IsVisible="True" HeaderText="Tôn giáo" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="91" FieldName="ContractNo" Name="ContractNo" IsVisible="True" HeaderText="Số hợp đồng" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="97" FieldName="ContractName" Name="ContractName" IsVisible="True" HeaderText="Tên hợp đồng" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="102" FieldName="RepresentativeOfCompany" Name="RepresentativeOfCompany" IsVisible="True" HeaderText="Người đại diện" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="85" FieldName="CompanyName" Name="CompanyName" IsVisible="True" HeaderText="Tên công ty" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="87" FieldName="WorkingHour" Name="WorkingHour" IsVisible="True" HeaderText="Giờ làm việc" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="94" FieldName="Overtime" Name="Overtime" IsVisible="True" HeaderText="Giờ làm thêm" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn ExcelExportType="Custom" ExcelExportFormatString="dd/MM/yyyy" Width="111" FieldName="LeaveDate" Name="LeaveDate" IsVisible="True" HeaderText="Ngày rời công ty" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="71" FieldName="SocialInsuranceNo" Name="SocialInsuranceNo" IsVisible="True" HeaderText="Số BHXH" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="68" FieldName="HealthInsuranceNo" Name="HealthInsuranceNo" IsVisible="True" HeaderText="Số BHYT" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="66" FieldName="BirthPlace" Name="BirthPlace" IsVisible="True" HeaderText="Nơi sinh" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="74" FieldName="IdCard" Name="IdCard" IsVisible="True" HeaderText="Số CMND" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn ExcelExportType="Custom" ExcelExportFormatString="dd/MM/yyyy" Width="72" FieldName="DateOfIssue" Name="DateOfIssue" IsVisible="True" HeaderText="Ngày cấp" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="63" FieldName="PlaceOfIssue" Name="PlaceOfIssue" IsVisible="True" HeaderText="Nơi cấp" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="69" FieldName="Nationality" Name="Nationality" IsVisible="True" HeaderText="Quốc gia" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="81" FieldName="SalaryLevel" Name="SalaryLevel" IsVisible="True" HeaderText="Mức lương" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="117" FieldName="ContractTitle" Name="ContractTitle" IsVisible="True" HeaderText="Tiêu đề hợp đồng" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="116" FieldName="HighestLevelName" Name="HighestLevelName" IsVisible="True" HeaderText="Trình độ cao nhất" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="134" FieldName="SOSPositionName" Name="SOSPositionName" IsVisible="True" HeaderText="Chức danh hợp đồng" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="150" FieldName="HighestLevelNameValue" Name="HighestLevelNameValue" IsVisible="True" HeaderText="Giá trị trình độ cao nhất" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="62" FieldName="CntRemark" Name="CntRemark" IsVisible="True" HeaderText="Ghi chú" />
+      <Telerik.WinControls.UI.GridViewTextBoxColumn Width="100" FieldName="DirectWorkingName" Name="DirectWorkingName" IsVisible="True" HeaderText="Trực tiếp/ gián tiếp" />
+    </Columns>
+    <ViewDefinition xsi:type="Telerik.WinControls.UI.TableViewDefinition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+  </MasterTemplate>
+</RadGridView>
